@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        nav {
+            text-align: center;
+            padding: 1rem;
+            background: #444;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        .gallery-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            padding: 20px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        .gallery-item {
+            background: white;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        .gallery-item:hover {
+            transform: scale(1.05);
+        }
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .caption {
+            margin-top: 10px;
+            font-size: 1rem;
+            color: #333;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #333;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Gallery</h1>
+    </header>
+    <nav>
+        <a href="Personal Web.html">Home</a>
+        <a href="About.html">About</a>
+        <a href="portfolio.html">My Loved Ones</a>
+        <a href="contact.html">Contact</a>
+        <a href="Gallery.html">Gallery</a>
+    </nav>
+
+    <div class="gallery-container">
+        <div class="gallery-item">
+            <img src="aqi22/aq1`.jpg" alt="Image 1">
+            <p class="caption">A meaningful moment captured in time.</p>
+        </div>
+        <div class="gallery-item">
+            <img src="aqi22/aq2.jpg" alt="Image 2">
+            <p class="caption">Exploring the beauty of nature.</p>
+        </div>
+        <div class="gallery-item">
+            <img src="aqi22/aq3.jpg" alt="Image 3">
+            <p class="caption">A memorable adventure worth sharing.</p>
+        </div>
+        <div class="gallery-item">
+            <img src="aqi22/aq4.jpg" alt="Image 4">
+            <p class="caption">The joy of simple moments.</p>
+        </div>
+        <div class="gallery-item">
+            <img src="aqi22/aq5.jpg" alt="Image 5">
+            <p class="caption">Learning and growing every day.</p>
+        </div>
+        <div class="gallery-item">
+            <img src="aqi22/aq6.jpg" alt="Image 6">
+            <p class="caption">Cherishing the moment</p>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2025 Raven Belen | My Personal Gallery
+    </footer>
+</body>
+</html>

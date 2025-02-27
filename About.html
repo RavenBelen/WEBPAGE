@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1.5rem;
+            font-size: 24px;
+        }
+        nav {
+            text-align: center;
+            padding: 1rem;
+            background: #444;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: lightgray;
+        }
+
+        .section {
+            margin: 40px auto;
+            max-width: 85%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            text-align: center;
+            max-width: 600px;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .card img {
+            width: 100%;
+            max-height: 300px;
+            border-radius: 12px;
+            object-fit: cover;
+        }
+
+        .card h2, .card h3 {
+            margin-top: 15px;
+            color: #333;
+        }
+
+        .card p {
+            font-size: 1rem;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .separator {
+            width: 80%;
+            height: 2px;
+            background-color: #333;
+            margin: 30px auto;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1.5rem;
+            background: #333;
+            color: white;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to My Personal Webpage</h1>
+    </header>
+
+    <nav>
+        <a href="Personal Web.html">Home</a>
+        <a href="About.html">About</a>
+        <a href="portfolio.html">My Loved Ones</a>
+        <a href="contact.html">Contact</a>
+        <a href="Gallery.html">Gallery</a>
+    </nav>
+
+    <h2>About Me</h2>
+    <div class="section">
+        <div class="card">
+            <img src="pic q.jpg" alt="Raven">
+            <h2>Hi, I'm Raven</h2>
+            <p>I am an Altar Server and a 19-year-old student currently learning at De La Salle Lipa. I am passionate about my faith, personal growth, and academic excellence. I strive to embody discipline, dedication, and service in both my spiritual and educational journey.</p>
+        </div>
+    </div>
+
+    <div class="separator"></div>
+
+    <h2>Location</h2>
+    <div class="section">
+        <div class="card">
+            <img src="dito me.png" alt="My Location">
+            <h3>Where I Live</h3>
+            <p>I live in Makina, Balete, Batangas, the place where I was raised and where I discovered many valuable lessons in life. It is a community that shaped my values, nurtured my dreams, and continues to inspire me every day.</p>
+        </div>
+    </div>
+
+    <div class="separator"></div>
+
+    <h2>My School</h2>
+    <div class="section">
+        <div class="card">
+            <img src="school.jpg" alt="De La Salle Lipa">
+            <h3>De La Salle Lipa</h3>
+            <p>This is where I attend my learning, De La Salle Lipa, a premier educational institution that nurtures holistic development, academic excellence, and Lasallian values.</p>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2025 Raven Belen | My Personal Webpage
+    </footer>
+
+</body>
+</html>
